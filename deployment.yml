@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app.kubernentes.io/name: web-deploy
+        app.kubernetes.io/name: web-deploy
     spec:
       containers:
       - name: nginx
